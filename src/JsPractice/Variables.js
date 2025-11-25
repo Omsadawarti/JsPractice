@@ -1,3 +1,3 @@
-// let a = 70;
-let a = "Om";
-console.log("The value of a: " + a);
+console.log(
+  "This program will introduce you with differnt types of variables in JS"
+);
