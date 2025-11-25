@@ -8,7 +8,40 @@
 
 // let a = 30;
 // let a = 90; //invalid and throw and error
+//=================================
 
-console.log(
-  "This program will introduce you with differnt types of variables in JS"
-);
+// PRIMITIVE DATATYPES IN JS
+// There are 7 primitive datatypes in js and they are:
+// nn ss bb u
+// 1. null
+// 2. number
+// 3. string
+// 4. symbol
+// 5. bigInt
+// 6. boolean
+// 7. undefined
+
+let a = null;
+let b = 123;
+let c = "Hello";
+let d = Symbol("This is a Special Symbol");
+let e = BigInt(45) + BigInt(5); // we can directly add bigInt
+let f = false;
+let g = undefined;
+
+console.log(a, b, c, d, e, f, g);
+// getting the type of a perticular variable
+console.log(typeof f);
+console.log(typeof e);
+
+// creating a object in js (non-primitive datatype)
+const myobj = {
+  name: "Om",
+  age: 22,
+  isMarrid: false,
+  Death: undefined,
+};
+
+console.log(myobj);
+console.log(myobj["age"]); // 22
+console.log(myobj["notPresent"]); // undefined
