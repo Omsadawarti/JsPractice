@@ -1,5 +1,4 @@
-function hello() {
-  console.log("I am using js functions");
-}
-
-hello();
+let a = 1;
+let b = "1";
+console.log("a == b", a == b); //true
+console.log("a===b " + (a === b)); //false
