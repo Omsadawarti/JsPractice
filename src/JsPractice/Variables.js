@@ -44,4 +44,16 @@ const myobj = {
 
 console.log(myobj);
 console.log(myobj["age"]); // 22
-console.log(myobj["notPresent"]); // undefined
+// OR
+console.log(myobj.age); //  also valid
+console.log(myobj["isPresent"]); // undefined
+// now modifying the myobj , adding a new field into into
+
+myobj["isPresent"] = true;
+
+// we can modify the orignal object , but now assign a new object to the same const variable.
+// myobj = {
+//   name: "lala",
+// };
+// above line will give an error
+console.log(myobj);
