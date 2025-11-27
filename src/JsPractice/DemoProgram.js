@@ -1,6 +1,16 @@
-// importing the prompt-sync library into the program [for that , we first need to install prompt-sync]
-const prompt = require("prompt-sync")();
-let num = prompt("Enter a number: ");
-console.log(
-  num % 2 === 0 ? "Number is divisible by 2" : "Number is divisible by 3"
-);
+let obj = {
+  om: 12,
+  akanksha: 45,
+  sankalp: 64,
+  badak: 90,
+};
+
+// for in loop
+for (let a in obj) {
+  console.log(`Name: ${a} | Marks: ${obj[a]}`);
+}
+
+// for of loop (only applied on iterable objects)
+for (let b of "Om Mahesh Sadawati") {
+  console.log(b);
+}
